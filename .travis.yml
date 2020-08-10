@@ -16,7 +16,7 @@ deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  local-dir: dist/cicd-test
+  local-dir: dist/my-dream-app
   keep_history: true
   on:
     branch: master
